@@ -20,7 +20,7 @@ export default function App() {
     if (!nome) return;
     try {
       // Faz a requisição para o backend Flask passando o nome científico pela URL
-      const res = await fetch(`http://localhost:5000/api/consulta?nome=${nome}`);
+      const res = await fetch(`https://consulta-flora.onrender.com/api/consulta?nome=${nome}`);
       const dados = await res.json();
       setResultado(dados);
     } catch {
