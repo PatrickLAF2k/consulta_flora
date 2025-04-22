@@ -1,0 +1,20 @@
+.
+├── README.md
+├── eslint.config.js
+├── estrutura.txt
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+├── src
+│   ├── App.jsx
+│   ├── assets
+│   │   └── bkPlantas.jpg
+│   ├── components
+│   │   ├── Distribuition.jsx
+│   │   └── Taxon.jsx
+│   ├── main.jsx
+│   └── service
+└── vite.config.js
+
+6 directories, 12 files
